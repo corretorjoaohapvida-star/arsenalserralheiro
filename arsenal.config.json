@@ -1,0 +1,419 @@
+{
+  "version": 3,
+  "status": "blueprint_with_assets_checkout_pixel",
+  "locale": "pt-BR",
+  "currency": "BRL",
+  "brand": {
+    "name": "Arsenal do Serralheiro",
+    "slug": "arsenal-do-serralheiro",
+    "image_brand_text_is_unchanged": false
+  },
+  "reference": {
+    "url": "https://packserralheria.lovable.app/",
+    "observed_on": "2026-10-04"
+  },
+  "offer": {
+    "format": "Biblioteca digital de projetos",
+    "payment": "one_time",
+    "delivery": "Liberação após confirmação do pagamento",
+    "guarantee_days": 30,
+    "inventory_verified": false,
+    "claim_status": "targets_pending_inventory_check"
+  },
+  "plans": [
+    {
+      "id": "basico",
+      "name": "Kit Básico",
+      "price_cents": 1000,
+      "reference_anchor_cents": 4700,
+      "display_anchor": false,
+      "image": "assets/arsenal-kit-basico.png",
+      "checkout_url": "https://pay.wiapy.com/6ac2ed20c7ae865f6e65b323",
+      "highlighted": false,
+      "content_targets": [
+        "Mais de 3.000 projetos selecionados",
+        "300 projetos de portões",
+        "Projetos de carretinhas",
+        "Projetos de carretas e plataformas",
+        "200 projetos de móveis industriais",
+        "Estruturas rápidas",
+        "Acesso vitalício aos arquivos adquiridos"
+      ]
+    },
+    {
+      "id": "profissional",
+      "name": "Kit Profissional",
+      "price_cents": 2700,
+      "reference_anchor_cents": 9700,
+      "display_anchor": false,
+      "image": "assets/arsenal-kit-profissional.png",
+      "checkout_url": "https://pay.wiapy.com/T4zKfuBzIqVq",
+      "highlighted": true,
+      "badge": "Mais completo",
+      "content_targets": [
+        "Mais de 3.000 projetos completos",
+        "300 projetos de portões",
+        "Projetos de carretinhas, reboques, plataformas e aplicações automotivas",
+        "600 projetos de móveis industriais",
+        "500 projetos de estruturas",
+        "50 projetos de churrasqueiras",
+        "100 projetos de equipamentos de academia",
+        "Quatro bônus",
+        "Certificado de acesso ao material",
+        "Acesso vitalício aos arquivos adquiridos"
+      ]
+    }
+  ],
+  "bonuses": [
+    {
+      "id": "precificacao",
+      "name": "Planilha de precificação",
+      "image": "assets/bonus1-7N-YLVHE.webp",
+      "delivery": "XLSX com fórmulas e exemplo preenchido",
+      "description": "Organize materiais, mão de obra e despesas para montar cada orçamento."
+    },
+    {
+      "id": "fornecedores",
+      "name": "Lista de fornecedores",
+      "image": "assets/bonus2-C4Pe057k.webp",
+      "delivery": "PDF ou planilha com data de revisão",
+      "description": "Consulte contatos e categorias de insumos para comparar suas opções de compra."
+    },
+    {
+      "id": "guia-precos",
+      "name": "Guia para montar seus preços",
+      "image": "assets/bonus3-B9gKbqO2.webp",
+      "delivery": "PDF com exemplos de cálculo",
+      "description": "Transforme o levantamento de custos em uma proposta de serviço."
+    },
+    {
+      "id": "cidades-pequenas",
+      "name": "Seleção de projetos para cidades pequenas",
+      "image": "assets/bonus4-Csw8V0ZA.webp",
+      "delivery": "Coleção PDF organizada por aplicação",
+      "description": "Encontre opções de trabalhos para avaliar conforme a demanda da sua região."
+    }
+  ],
+  "visual": {
+    "background": "#0a0a0a",
+    "alternate_background": "#0f1620",
+    "card_background": "#141c28",
+    "accent": "#f59e0b",
+    "text": "#ffffff",
+    "muted": "#9ca3af",
+    "top_bar": "#dc2626",
+    "font": "ui-sans-serif, system-ui, sans-serif",
+    "radius_card_px": 10,
+    "radius_plan_px": 14,
+    "radius_button_px": 8,
+    "hero_max_width_px": 768,
+    "standard_max_width_px": 896,
+    "wide_max_width_px": 1024,
+    "breakpoints_px": {
+      "sm": 640,
+      "md": 768
+    },
+    "section_padding_y_px": {
+      "mobile": 48,
+      "desktop": 64
+    }
+  },
+  "images": {
+    "hero": "assets/arsenal-hero.png",
+    "presentation": "assets/arsenal-hero.png",
+    "preserve_original_bytes": false,
+    "gallery_rows": [
+      {
+        "direction": "left",
+        "repeat_for_loop": 2,
+        "items": [
+          {
+            "image": "assets/p1-DZX_Ihtj.webp",
+            "mobile_px": [
+              112,
+              144
+            ],
+            "desktop_px": [
+              176,
+              208
+            ]
+          },
+          {
+            "image": "assets/p4-Dj1iVEsi.webp",
+            "mobile_px": [
+              160,
+              112
+            ],
+            "desktop_px": [
+              256,
+              160
+            ]
+          },
+          {
+            "image": "assets/p8-i19Aee1g.webp",
+            "mobile_px": [
+              96,
+              128
+            ],
+            "desktop_px": [
+              144,
+              192
+            ]
+          },
+          {
+            "image": "assets/p11-D7Utn-wW.webp",
+            "mobile_px": [
+              128,
+              176
+            ],
+            "desktop_px": [
+              192,
+              256
+            ]
+          },
+          {
+            "image": "assets/p6-Codlgh7P.webp",
+            "mobile_px": [
+              112,
+              112
+            ],
+            "desktop_px": [
+              160,
+              160
+            ]
+          },
+          {
+            "image": "assets/p9-DyCjAXFm.webp",
+            "mobile_px": [
+              96,
+              144
+            ],
+            "desktop_px": [
+              144,
+              208
+            ]
+          }
+        ]
+      },
+      {
+        "direction": "right",
+        "repeat_for_loop": 2,
+        "items": [
+          {
+            "image": "assets/p2-DOnYfXGx.webp",
+            "mobile_px": [
+              96,
+              160
+            ],
+            "desktop_px": [
+              144,
+              224
+            ]
+          },
+          {
+            "image": "assets/p5-DjK25xjJ.webp",
+            "mobile_px": [
+              144,
+              112
+            ],
+            "desktop_px": [
+              224,
+              160
+            ]
+          },
+          {
+            "image": "assets/p10-Ba-JxMjj.webp",
+            "mobile_px": [
+              128,
+              128
+            ],
+            "desktop_px": [
+              192,
+              176
+            ]
+          },
+          {
+            "image": "assets/p3-D3W3l_Ax.webp",
+            "mobile_px": [
+              112,
+              144
+            ],
+            "desktop_px": [
+              160,
+              208
+            ]
+          },
+          {
+            "image": "assets/p7-Bi3MQkwB.webp",
+            "mobile_px": [
+              96,
+              128
+            ],
+            "desktop_px": [
+              144,
+              192
+            ]
+          },
+          {
+            "image": "assets/p1-DZX_Ihtj.webp",
+            "mobile_px": [
+              144,
+              112
+            ],
+            "desktop_px": [
+              208,
+              160
+            ]
+          }
+        ]
+      },
+      {
+        "direction": "left",
+        "repeat_for_loop": 2,
+        "items": [
+          {
+            "image": "assets/p8-i19Aee1g.webp",
+            "mobile_px": [
+              128,
+              128
+            ],
+            "desktop_px": [
+              192,
+              176
+            ]
+          },
+          {
+            "image": "assets/p11-D7Utn-wW.webp",
+            "mobile_px": [
+              96,
+              160
+            ],
+            "desktop_px": [
+              144,
+              224
+            ]
+          },
+          {
+            "image": "assets/p4-Dj1iVEsi.webp",
+            "mobile_px": [
+              112,
+              112
+            ],
+            "desktop_px": [
+              176,
+              160
+            ]
+          },
+          {
+            "image": "assets/p6-Codlgh7P.webp",
+            "mobile_px": [
+              144,
+              144
+            ],
+            "desktop_px": [
+              208,
+              208
+            ]
+          },
+          {
+            "image": "assets/p9-DyCjAXFm.webp",
+            "mobile_px": [
+              96,
+              128
+            ],
+            "desktop_px": [
+              144,
+              176
+            ]
+          },
+          {
+            "image": "assets/p2-DOnYfXGx.webp",
+            "mobile_px": [
+              112,
+              144
+            ],
+            "desktop_px": [
+              160,
+              208
+            ]
+          }
+        ]
+      }
+    ],
+    "original_gallery_and_bonus_files_preserved": true
+  },
+  "sections": [
+    "top_bar",
+    "hero",
+    "pain_points",
+    "product_presentation",
+    "gallery",
+    "included",
+    "bonuses",
+    "testimonials",
+    "plans",
+    "guarantee",
+    "faq"
+  ],
+  "behavior": {
+    "top_cta_target": "#oferta",
+    "smooth_scroll": true,
+    "checkout_without_url": "disabled_in_preview",
+    "gallery_pause_on_hover": true,
+    "respect_reduced_motion": true
+  },
+  "tracking": {
+    "enabled": true,
+    "meta_pixel_id": "1098661593061392",
+    "gtm_id": null,
+    "ga4_id": null,
+    "scripts": [
+      {
+        "file": "meta-pixel-head.html",
+        "placement": "head"
+      }
+    ],
+    "events": [
+      "PageView"
+    ],
+    "noscript_file": "meta-pixel-body.html",
+    "deployment_status": "not_published"
+  },
+  "urgency": {
+    "mode": "dynamic_date",
+    "top_bar_text": "HOJE ({weekday}, {date}) — APROVEITE A OFERTA!",
+    "deadline": null,
+    "countdown_enabled": false,
+    "timezone": "America/Sao_Paulo"
+  },
+  "social_proof": {
+    "enabled": false,
+    "testimonials": [],
+    "purchase_notifications_enabled": false
+  },
+  "support": {
+    "email": null,
+    "whatsapp": null,
+    "refund_contact": null
+  },
+  "legal": {
+    "seller_name": null,
+    "terms_url": null,
+    "privacy_url": null
+  },
+  "launch_dependencies": [
+    "Acervo próprio ou autorizado conferido",
+    "Quantidades e características conferidas no acervo",
+    "Entrega dos dois planos configurada",
+    "Bônus efetivamente disponíveis no profissional",
+    "Contato de suporte e reembolso preenchido",
+    "Responsável pela venda identificado"
+  ],
+  "copy": {
+    "hero_subtitle": "Baixe agora mais de 3.000 projetos prontos de serralheria para copiar, fabricar e vender.",
+    "pain_heading": "VOCÊ SE IDENTIFICA?",
+    "presentation_heading": "O QUE É O ARSENAL?",
+    "gallery_heading": "VEJA ALGUNS MODELOS DO ARSENAL",
+    "guarantee_heading": "30 DIAS DE GARANTIA"
+  }
+}
